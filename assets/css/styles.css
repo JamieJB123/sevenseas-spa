@@ -1,3 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Example layout visualisation */
+/* #example .row {
+    border: 1px solid red;
+}
+#example .row div {
+    background-color: lightgray;
+    height: 80px;
+    border: 2px white solid;
+} */
+main {
+    flex: 1;
+}
 .navbar-custom {
     color: #3B2F2F;
 }
@@ -8,6 +26,9 @@
 
 .navbar-custom .nav-link.active {
     font-weight: bold;
+}
+.img-services {
+    margin-bottom: 1.5rem;
 }
 
 .hero-section {
@@ -20,8 +41,13 @@
 .hero-section h1, h2, h5 {
     font-family: 'Handlee', cursive;
 }
-
-.btn {
+.card {
+    border: none;
+}
+.card-body {
+    padding-left: 0;
+}
+#btn-brown {
     color: #3B2F2F;
 }
 ul {
@@ -30,6 +56,17 @@ ul {
 #testimonials img {
     width: 30%;
 }
+.footer {
+    background-color: #6f4e37;
+    color: #ffebd4;
+}
+.footer a {
+    color: #ffebd4;
+}
+.container.d-flex.flex-column.flex-md-row.justify-content-between.align-items-center > .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 /* Media Query Medium Screens 768px and up*/
 @media screen and (min-width: 768px) {
