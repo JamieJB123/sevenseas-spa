@@ -1,0 +1,49 @@
+.navbar-custom {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
+    background-size: cover;
+    color: #FFEBD4;
+    padding: 100px 0;
+}
+
+.hero-section h1, h2, h5 {
+    font-family: 'Handlee', cursive;
+}
+
+.btn {
+    color: #3B2F2F;
+}
+ul {
+    padding-left: 1.5rem;
+}
+#testimonials img {
+    width: 30%;
+}
+
+/* Media Query Medium Screens 768px and up*/
+@media screen and (min-width: 768px) {
+    #testimonials img {
+        width: 20%;
+    }
+}
+
+/* Media Query Large Screens 992px and up */
+@media screen and (min-width: 992px) {
+    #services img {
+        height: 200px;
+    }
+    #testimonials img {
+        width: 10%;
+    }
+}
