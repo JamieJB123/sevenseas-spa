@@ -1,21 +1,13 @@
+/* Push footer down */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
-
-/* Example layout visualisation */
-/* #example .row {
-    border: 1px solid red;
-}
-#example .row div {
-    background-color: lightgray;
-    height: 80px;
-    border: 2px white solid;
-} */
 main {
     flex: 1;
 }
+/* Custom navbar styling */
 .navbar-custom {
     color: #3B2F2F;
 }
@@ -27,10 +19,14 @@ main {
 .navbar-custom .nav-link.active {
     font-weight: bold;
 }
+
+/* Services - spacing for better styling */
+
 .img-services {
     margin-bottom: 1.5rem;
 }
 
+/* Hero section background image and text */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
     background-size: cover;
@@ -41,21 +37,30 @@ main {
 .hero-section h1, h2, h5 {
     font-family: 'Handlee', cursive;
 }
-.card {
+/* Cards on About Page */
+#team .card {
     border: none;
 }
-.card-body {
+#team .card-body {
     padding-left: 0;
 }
+/* button on contact page */
 #btn-brown {
     color: #3B2F2F;
 }
-ul {
+/* Wellness tips list */
+#wellness-tips ul {
     padding-left: 1.5rem;
 }
+
+/* Sizing testimonials image */
+
 #testimonials img {
     width: 30%;
 }
+
+/* Footer styling */
+
 .footer {
     background-color: #6f4e37;
     color: #ffebd4;
