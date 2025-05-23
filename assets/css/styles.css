@@ -34,7 +34,7 @@ main {
     padding: 100px 0;
 }
 
-.hero-section h1, h2, h5 {
+.hero-section h1, h2, h3, h5 {
     font-family: 'Handlee', cursive;
 }
 /* Cards on About Page */
@@ -71,7 +71,7 @@ main {
 .container.d-flex.flex-column.flex-md-row.justify-content-between.align-items-center > .row {
     margin-left: 0;
     margin-right: 0;
-  }
+}
 
 /* Media Query Medium Screens 768px and up*/
 @media screen and (min-width: 768px) {
